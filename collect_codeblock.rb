@@ -40,7 +40,10 @@ range = range.collect {|num| num * 20}
 puts range
 puts "\n" 
 
-
 #this will return the keys for this hash in an array which will be a, b, c
 hash = {"a" => 111, "b" => 222, "c" => 333}
 puts hash.map {|k,v| k}
+puts "\n"
+
+#this will return the keys, as well as the values multiplied by 20
+puts hash.map {|k,v| "#{k}: #{v * 20}"}
