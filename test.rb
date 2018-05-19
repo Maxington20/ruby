@@ -1,3 +1,5 @@
+
+#just a simple test to make sure that I can use Watir
 require "watir"
 
 puts "Bruno is a handsome man"
